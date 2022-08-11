@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "admin" && password === "admin") {
         loginErrorMsg.style.opacity = 0;
-        window.location = "https://mybinder.org/v2/gh/vuvu123/lung-cancer/3fd2be689ec6d7ae2ed1ce276a5a4ec2f454355d?urlpath=lab%2Ftree%2Flung-cancer-analysis.ipynb"
+        window.location = "https://mybinder.org/v2/gh/vuvu123/lung-cancer/HEAD?urlpath=voila%2Frender%2Flung-cancer-analysis.ipynb"
     } else {
         loginErrorMsg.style.opacity = 1;
     }
